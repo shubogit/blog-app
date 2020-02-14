@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*iphone SE*/
+@media only screen and (min-width: 320px) {
+  .auth-inner {
+    min-width: 310px;
+  }
+}
+/*iphone small screen*/
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .auth-inner {
+    min-width: 320px;
+  }
+}
+
+/*iphone large screen*/
+@media only screen and (min-width: 376px) and (max-width: 420px) {
+  .auth-inner {
+    min-width: 400px;
+  }
+}
+
+/*ipad potrait*/
+@media only screen and (min-width: 421px) and (max-width: 767px) {
+  .auth-inner {
+    min-width: 450px;
+  }
+}
+
+/*ipad landscape*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .auth-inner {
+    min-width: 450px;
+  }
+}
+
+/*small screen laptops*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .auth-inner {
+    min-width: 450px;
+  }
+}
+
+/*every other laptops*/
+@media only screen and (min-width: 1201px) {
+  .auth-inner {
+    min-width: 450px;
+  }
+}
+
+.auth-outer {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  margin-bottom: 10px;
+}
