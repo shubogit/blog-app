@@ -13,7 +13,6 @@ import Blog from "./components/Blog";
 
 function App() {
   const location = useLocation();
-  console.log(location);
   return (
     <div className="App">
       {location.pathname === "/" || location.pathname === "/register" ? null : (

@@ -23,7 +23,6 @@ const AppBar = props => {
   const history = useHistory();
 
   const toggle = () => setIsOpen(!isOpen);
-  console.log(user);
   useEffect(() => {
     const data = getUser();
     setUser(data.user);
