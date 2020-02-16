@@ -9,7 +9,7 @@ import AppBar from "./components/AppBar";
 import Login from "./components/Login";
 import Register from "./components/Register";
 import PrivateRoute from "./components/PrivateRoute";
-import Blog from "./components/Blog";
+import Main from "./components/Main";
 
 function App() {
   const location = useLocation();
@@ -21,7 +21,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Login} />
         <Route path="/register" exact component={Register} />
-        <PrivateRoute path="/blog" component={Blog} />
+        <PrivateRoute path="/blog" component={Main} />
       </Switch>
     </div>
   );

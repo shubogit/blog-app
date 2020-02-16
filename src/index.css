@@ -70,3 +70,8 @@ code {
 .row {
   margin-bottom: 10px;
 }
+
+.form-control:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
